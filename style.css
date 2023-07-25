@@ -72,7 +72,8 @@
 #dice:hover{
     box-shadow: 0 0 10px hsl(193, 38%, 86%),
                 0 0 20px hsl(193, 38%, 86%),
-                0 0 50px hsl(193, 38%, 86%);
+                0 0 50px hsl(193, 38%, 86%),
+                0 0 100px hsl(193, 38%, 86%);
 }
 @media(max-width:768px){
     .adviceContainer .mob{
