@@ -17,6 +17,7 @@ function Quote(){
      })
      .then(data=>{
         adviceArray[index] = data.slip.advice
+        index=data.slip.id
 })
 }
 function addingQuote(){
@@ -27,12 +28,12 @@ function addingQuote(){
         flag = false
     }
     else{
-        if(adviceArray[index]==='undefined'){
+        number.innerHTML = index
+        if(adviceArray[index] ==='undefined'){
             adviceArray[index] = 'Be Happy'
         }
     advice.innerHTML='"'+adviceArray[index]+'"'
-    index++
-    number.innerHTML = index
+    //index++
     flag=true
     }
 }
